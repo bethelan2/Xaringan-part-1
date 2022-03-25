@@ -2,7 +2,7 @@
 title: "Presentation title"
 subtitle: "Presentation subtitle"
 author: "Author Name"
-institute: "NHS Organisation"
+institute: "BERRI Limited"
 date: "Presentation Date"
 output:
   xaringan::moon_reader:
@@ -28,6 +28,9 @@ library(tidyverse)
 library(NHSRtheme)
 library(emo)
 library(emojifont)
+library(xaringanExtra)
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
 # set default options
 opts_chunk$set(echo = FALSE,
                fig.width = 7.252,
@@ -144,5 +147,38 @@ class: center, middle
 NHSRdatasets::LOS_model %>%
   head() #<<
 ```
+
+---
+
+# This slide has panels 
+
+.panelset[
+
+.panel[.panel-name[Tab 1]
+
+Content for Tab 1
+] <!-- end of panel-->
+.panel[.panel-name[Tab 2]
+
+Content for Tab 2
+] <!-- end of panel-->
+.panel[.panel-name[Tab 3]
+
+Content for Tab 3
+] <!-- end of panel-->
+.panel[.panel-name[Tab 4]
+
+Content for Tab 4
+
+.pull-left[
+Pulling content to the left
+]
+
+.pull-right[
+Pulling content to the right
+]
+] <!-- end of panel-->
+
+]
 
 ---

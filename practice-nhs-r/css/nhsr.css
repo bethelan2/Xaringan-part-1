@@ -1,7 +1,7 @@
 /*-- LINKS/ANCHORS --*/
 a {
-  color:              #005EB8;
-  border-bottom:      2px solid #005EB8;
+  color:              #D5896F;
+  border-bottom:      2px solid #DAB785;
   line-height:        1.5em;
 }
 
@@ -11,20 +11,20 @@ a:hover {
 
 /*-- HEADINGS --*/
 .remark-slide-content h1 {
-  color:              #005EB8;
+  color:              #04395E;
   font-size:          45px;
   line-height:        1em;
 }
 
 .remark-slide-content h2 {
   font-size:          35px;
-  color:              #005EB8;
+  color:              #04395E;
   line-height:        1em;
 }
 
 .remark-slide-content h3 {
   font-size:          25px;
-  color:              #005EB8;
+  color:              #04395E;
 }
 
 li{
@@ -42,7 +42,7 @@ hr {
   content:            none;
   display:            block;
   border:             none;
-  background-color:   #231F20;
+  background-color:   #70A288;
   height:             0.08em;
 }
 
@@ -59,7 +59,7 @@ hr {
 
 /*-- Slide number --*/
 .remark-slide-number {
-  color:              #000000;
+  color:              #031D44;
 }
 
 /*-- CODE TEXT --*/
@@ -68,7 +68,7 @@ hr {
 .remark-code, .remark-inline-code {
   font-size:          90%;
   font-weight:        400;
-  color:              #231F20;
+  color:              #70A288;
   background:         #E8EDEE;
   border-radius:      3px;
   padding:            1px 1px 1px 1px;
@@ -76,7 +76,7 @@ hr {
 
 /*-- Line highlighting within code --*/
 .remark-code-line-highlighted {
-  background-color:   #E8EDEE;
+  background-color:   #04395E;
 }
 
 /*-- CODE CHUNKS --*/
@@ -125,7 +125,7 @@ blockquote {
 
 /*-- Slide background and text (inverse) --*/
 .inverse {
-  background-color:   #005EB8;
+  background-color:   #DAB785;
   color:              #FFFFFF;
   text-shadow:        none;
 }
@@ -152,16 +152,16 @@ blockquote {
 
 /*-- CUSTOM CLASS FOR THE TITLE SLIDE --*/
 
-/*-- NHS organisation logo --*/
+/*-- BERRI organisation logo --*/
 .title-slide {
-  background-image:    url(../img/logo-title-slide.png);
+  background-image:    url(../img/Berri-logo.png);
   background-position: 95% 10%;
   background-size:     300px;
 }
 
 /*-- Headings --*/
 .title-slide h1 {
-  color:               #000000;
+  color:               #04395E;
 }
 
 /*-- Hides slide number from title slide --*/
@@ -170,8 +170,8 @@ blockquote {
 }
 
 /*-- CUSTOM CLASSES FOR TEXT EMPHASIS --*/
-.blue       { color:   #005EB8 }
-.green      { color:   #009639 }
-.pink       { color:   #AE2573 }
-.red        { color:   #DA291C }
-.warmyellow { color:   #FFB81C }
+.darkblue       { color:   #031D44 }
+.warmblue       { color:   #04395E }
+.babyblue       { color:   #70A288 }
+.dustypink      { color:   #DAB785 }
+.babypink       { color:   #D5896F }
